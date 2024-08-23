@@ -11,7 +11,7 @@
 
       {/* Navigation starts from here */}
       <nav className='pt-2  pb-10 border border-black'>
-        <div className="containerNav flex justify-between">
+        <div className="containerNav flex justify-between items-center">
         <img className="w-36" src={this.props.logo} alt="RD Mart" /> 
         <ul className='flex gap-4 text-[#6482AD] mx-8'>
             <li className='list-none'>Home</li>
