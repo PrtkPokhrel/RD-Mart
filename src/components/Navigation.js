@@ -1,29 +1,63 @@
- import React, { Component } from 'react'
- 
- export default class Navigation extends Component {
-   render() {
-   
-     return (
+// Navigation.js
+import React, { Component } from 'react';
+import { Link } from 'react-scroll';
+import './Css/navigation.css'; // Import the CSS file for styling
+
+export default class Navigation extends Component {
+  state = {
+    isOpen: false, // State to toggle the menu
+  };
+
+  toggleMenu = () => {
+    this.setState({ isOpen: !this.state.isOpen });
+  };
+
+  render() {
+    return (
       <>
-
-      {/* Location */}
-      <div className="top bg-[#6482AD] py-3 flex justify-center">Koteshwor, Kathmandu</div>
-
-      {/* Navigation starts from here */}
-      <nav className='pt-2  pb-10 border border-black'>
-        <div className="containerNav flex justify-between items-center">
-        <img className="w-36" src={this.props.logo} alt="RD Mart" /> 
-        <ul className='flex gap-4 text-[#6482AD] mx-8'>
-            <li className='list-none'>Home</li>
-            <li>Product</li>
-            <li>Contact Us</li>
-            <li>Location</li>
-        </ul>
+        {/* Location */}
+        <div className="top bg-[#6482AD] py-3 flex justify-center">
+          Koteshwor, Kathmandu
         </div>
 
-      </nav>
+        {/* Navigation */}
+        <nav className="pt-2 pb-11 border border-black bg-white">
+          <div className="containerNav flex justify-between items-center">
+            <img className="w-36" src={this.props.logo} alt="RD Mart" />
+
+            {/* Hamburger Icon */}
+            <div
+              className={`hamburger-icon ${this.state.isOpen ? 'open' : ''}`}
+              onClick={this.toggleMenu}
+            >
+              <span className="line"></span>
+              <span className="line"></span>
+              <span className="line"></span>
+            </div>
+
+            {/* Menu Items */}
+            <ul
+              className={`menu ${
+                this.state.isOpen ? 'active' : ''
+              } flex gap-4 text-[#6482AD] mx-8`}
+            >
+              <Link className="cursor-pointer li" to="Home" smooth={true} duration={500}>
+                Home
+              </Link>
+              <Link className="cursor-pointer li" to="Product" smooth={true} duration={500}>
+                Product
+              </Link>
+              <Link className="cursor-pointer li" to="Contact" smooth={true} duration={500}>
+                Contact
+              </Link>
+              <Link className="cursor-pointer li" to="Location" smooth={true} duration={500}>
+                Location
+              </Link>
+            </ul>
+          </div>
+        </nav>
       </>
-     )
-   }
- }
- 
+    );
+  }
+}
+

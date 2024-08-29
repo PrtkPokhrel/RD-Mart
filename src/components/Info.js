@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Css/info.css'
 
 export default class Info extends Component {
     render() {

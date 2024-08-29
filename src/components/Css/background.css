@@ -1,0 +1,20 @@
+@media (max-width:1150px){
+    .backgroundH1{
+        font-size: 3rem;
+    }
+
+    .backgroundtextContainer{
+        width: 90%;
+        
+    }
+}
+@media (max-width:750px){
+    .backgroundH1{
+        font-size: 2rem;
+    }
+
+    .backgroundtextContainer{
+        width: 90%;
+        
+    }
+}
