@@ -2,4 +2,8 @@
     .containerInfo{
         flex-direction: column;
     }
+
+    .box1{
+        margin-top: 2.5rem;
+    }
 }

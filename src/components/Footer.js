@@ -1,60 +1,50 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import halfCircle from './Images/half circle small.svg';
+import halfCircleBig from './Images/half circle big.svg';
 import './Css/footer.css'
 
-export default class Footer extends Component {
-    render() {
-        return (
 
-            <>
-                <div className="container flex justify-center mt-28">
+export default class Contact extends Component {
+  render() {
+    return (
+      <>
+        <div className="container containerFooter">
+                        
 
-                    <div className="footer border border-black w-[100%]">
-
-                        <div className="secondContainer flex ">
-
-                            <div className="left w-[30%]">
-                                <h3 className='text-[#6482AD] text-2xl p-4 font-semibold '> Reach us</h3>
-                                <ul>
-                                    <li className='flex gap-3 p-4 text-[#6482AD] text-xl' ><span className=" material-symbols-outlined">call</span>+977 987654321</li>
-                                    <li className='flex gap-3 p-4 text-[#6482AD] text-xl' ><span className=" material-symbols-outlined">mail</span>rdmart@gmail.com</li>
-                                    <li className='flex gap-3 p-4 text-[#6482AD] text-xl' ><span className=" material-symbols-outlined">place</span>Koteshwor, Kathmandu</li>
-                                </ul>
-                            </div>
-
-
-                            <div className="mid w-[40%] flex justify-center">
-                                <div className="midContainer">
-                                    <ul>
-                                        <li className='text-[#6482AD] p-4 text-2xl font-semibold' >Company</li>
-                                        <li className='text-[#6482AD] p-4 text-xl cursor-pointer' >Home</li>
-                                        <li className='text-[#6482AD] p-4 text-xl cursor-pointer' >Products</li>
-                                        <li className='text-[#6482AD] p-4 text-xl cursor-pointer' >Contact</li>
-                                    </ul>
-                                </div>
-
-                            </div>
-
-                           
-                                <div className="end  ">
-                                <h3 className='text-[#6482AD] text-2xl p-4 font-semibold '> Reach us</h3>
-                                    <div className=" p-4 text-[#6482AD]">
-                                        <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
-                                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-                                    </div>
-                                    <div className="p-4 text-[#6482AD] ">
-                                        <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
-                                        <textarea className="form-control" id="exampleFormControlTextarea1"  placeholder="Write your message here" rows="3"></textarea>
-                                    </div>
-
-                                    <button className='btn btn-secondary m-4 mt-2' >Message </button>
-                                </div>
-                            
-                        </div>
-                    </div>
+          <div className="contactContainerFooter border border-black mt-11 rounded-md  flex justify-around ">
+            <div className="contactLeft w-[30rem]  ">
+              <div className="contactLeftContainer">
+                <h2 className='text-[#6482AD] text-[2.25rem] font-bold mt-3 ' >RD Mart</h2>
+                <p className='text-[2rem] font-medium mt-4' >Your Everyday Essentials, Always Within Reach.</p>
+                <div className="socialMediaContainer mt-3 ">
+                  Social Media Icon Goes Here
                 </div>
-                    
+              </div>
+            </div>
+            <div className="contactMid">
+              <ul>
 
-            </>
-        )
-    }
+                <h1 className='font-bold text-[1.25rem] text-[#6482AD] mt-4 ' >Most Popular Categories</h1>
+
+                <div className='border-[3px] border-[#6482AD]  '></div>
+
+                <li className='list-disc font-bold text-[#6482AD] mt-3 ml-5 text-[1.25rem]' >Grocery</li>
+                <li className='list-disc font-bold text-[#6482AD] mt-2 ml-5   text-[1.25rem]' >Beverage</li>
+                <li className='list-disc font-bold text-[#6482AD] mt-2 ml-5 text-[1.25rem]'>Personal Care</li>
+                <li className='list-disc font-bold text-[#6482AD] mt-2 ml-5 text-[1.25rem]'>Home Care</li>
+                <li className='list-disc font-bold text-[#6482AD] mt-2 ml-5 text-[1.25rem]'>Vegetables and Fruits</li>
+              </ul>
+            </div>
+            <div className="contactRightImages flex ">
+              <img className=' half1 mt-[100%]    ' src={halfCircle} alt="" />
+              <img className=' half2 absolute right-0 w-[40vh] mt-[-12rem]' src={halfCircleBig} alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div className="ignore mt-7"></div>
+      </>
+    )
+  }
 }
+

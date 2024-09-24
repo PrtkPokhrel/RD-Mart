@@ -1,0 +1,14 @@
+@media   (max-width:750px) {
+
+    .top{
+        flex-direction: column;
+    }
+
+    .bottom{
+        flex-direction: column;
+    }
+    
+    .left,.right{
+        margin-top: 3rem;
+    }
+}
