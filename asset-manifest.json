@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.050fee8d.css",
+    "main.js": "/static/js/main.b481e9b8.js",
+    "static/js/453.64512fd7.chunk.js": "/static/js/453.64512fd7.chunk.js",
+    "static/media/background.png": "/static/media/background.b1bfb7c2256e2d6caac7.png",
+    "static/media/logo.png": "/static/media/logo.6c27e571590d5c1a7fa5.png",
+    "static/media/beverage.png": "/static/media/beverage.724a59d8b8a109ce6979.png",
+    "static/media/groceryBig.png": "/static/media/groceryBig.d7622474c3987a1f604e.png",
+    "static/media/cosmetics.png": "/static/media/cosmetics.7d882b671fc5ed145831.png",
+    "static/media/cleaning.png": "/static/media/cleaning.a0a2768d1e4d2c2abfcf.png",
+    "static/media/insta.svg": "/static/media/insta.d63273dbf6a6c4f6d40459d8ca75e530.svg",
+    "index.html": "/index.html",
+    "static/media/twitter.svg": "/static/media/twitter.af8252bd8f53390fe1f17e19b602a91e.svg",
+    "static/media/linkden.svg": "/static/media/linkden.c52eaa2d9c28b94cbb9abd4105abebe8.svg",
+    "static/media/half circle big.svg": "/static/media/half circle big.076d194d914984554ced30b2e14dd54d.svg",
+    "static/media/half circle small.svg": "/static/media/half circle small.9a44b0ddd187fbb3759cdf85262bf6fc.svg",
+    "static/media/fb.svg": "/static/media/fb.1460cc49cca1303ae053fcd0afdb0464.svg",
+    "main.050fee8d.css.map": "/static/css/main.050fee8d.css.map",
+    "main.b481e9b8.js.map": "/static/js/main.b481e9b8.js.map",
+    "453.64512fd7.chunk.js.map": "/static/js/453.64512fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.050fee8d.css",
+    "static/js/main.b481e9b8.js"
+  ]
+}
