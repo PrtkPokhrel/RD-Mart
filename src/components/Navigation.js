@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import './Css/navigation.css'; // Import the CSS file for styling
 
+
+
 export default class Navigation extends Component {
   state = {
     isOpen: false, // State to toggle the menu
@@ -21,9 +23,9 @@ export default class Navigation extends Component {
         </div>
 
         {/* Navigation */}
-        <nav className="pt-2 pb-11 border border-black bg-white">
+        <nav className="pt-2 pb-11 border border-black bg-[#F5EDED]">
           <div className="containerNav flex justify-between items-center">
-            <img className="w-36" src={this.props.logo} alt="RD Mart" />
+            <img className="w-36 mix-blend-multiply " src={this.props.logo} alt="RD Mart" />
 
             {/* Hamburger Icon */}
             <div
@@ -41,18 +43,16 @@ export default class Navigation extends Component {
                 this.state.isOpen ? 'active' : ''
               } flex gap-4 text-[#6482AD] mx-8`}
             >
-              <Link className="cursor-pointer li" to="Home" smooth={true} duration={500}>
+              <Link className="cursor-pointer li font-bold  font-inter " to="Home" smooth={true} duration={500}>
                 Home
               </Link>
-              <Link className="cursor-pointer li" to="Product" smooth={true} duration={500}>
+              <Link className="cursor-pointer li font-bold font-inter " to="Product" smooth={true} duration={500}>
                 Product
               </Link>
-              <Link className="cursor-pointer li" to="Contact" smooth={true} duration={500}>
+              <Link className="cursor-pointer li font-bold font-inter " to="Contact" smooth={true} duration={500}>
                 Contact
               </Link>
-              <Link className="cursor-pointer li" to="Location" smooth={true} duration={500}>
-                Location
-              </Link>
+               
             </ul>
           </div>
         </nav>

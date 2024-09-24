@@ -59,28 +59,30 @@ export default class Contact extends Component {
 
     return (
       <>
-        <div className="texts">
-          <h3 className="text-center text-3xl md:text-4xl text-[#6482AD] font-semibold mt-6">Contact us</h3>
+      <div className='bg-[#F5EDED]'>
+
+        <div className="texts  ">
+          <h3 className="text-center text-3xl md:text-4xl text-[#6482AD] font-semibold pt-6">Contact us</h3>
           <p className="para text-[#6482AD] text-center my-3 text-lg md:text-xl">
             Any question or remarks? Just write us a message!
           </p>
         </div>
 
-        <div className="contactContainer container flex flex-col md:flex-row justify-between mt-5 p-3 space-y-5 md:space-y-0">
+        <div className="contactContainer bg-white container flex flex-col md:flex-row justify-between mt-5 p-3 space-y-5 md:space-y-0 rounded-[3px] ">
           {/* Left Contact Section */}
           <div className="leftContact bg-[#6482AD] md:w-1/3 w-full rounded-xl p-6">
-            <div className="flex flex-col justify-around text-white h-full">
+            <div className="flex flex-col justify-evenly text-white h-full">
               <div className="heading text-white text-3xl md:text-4xl font-semibold">
-                <h2>Contact Information</h2>
+                <h2 className='font-poppins font-[600] text-[2.5rem]  ' >Contact Information</h2>
               </div>
-              <ul className="flex flex-col space-y-5 text-white text-lg md:text-xl">
-                <li className="flex gap-3 items-center">
-                  <span className="material-symbols-outlined">call</span> +977 9876543210
+              <ul className="flex flex-col space-y-9 text-white text-lg md:text-xl">
+                <li className="flex gap-3 items-center font-poppins font-[400]">
+                  <span className="material-symbols-outlined" >call</span> +977 9876543210
                 </li>
-                <li className="flex gap-3 items-center">
+                <li className="flex gap-3 items-center font-poppins font-[400]">
                   <span className="material-symbols-outlined">email</span> rdmart@gmail.com
                 </li>
-                <li className="flex gap-3 items-center">
+                <li className="flex gap-3 items-center font-poppins font-[400]">
                   <span className="material-symbols-outlined">place</span> Koteshwor, Kathmandu
                 </li>
               </ul>
@@ -88,7 +90,7 @@ export default class Contact extends Component {
           </div>
 
           {/* Right Contact Form Section */}
-          <div className="rightContact md:w-[65%] w-full bg-[#F5EDED] rounded-xl p-6 flex flex-col justify-evenly items-center">
+          <div className="rightContact md:w-[65%] w-full bg-white rounded-xl p-6 flex flex-col justify-evenly items-center">
             {/* Name and Message Fields */}
             <div className="topRightContact w-full">
               <div className="topG flex flex-col gap-5">
@@ -128,7 +130,7 @@ export default class Contact extends Component {
                   value={email}
                   onChange={this.handleChange}
                   placeholder="Email"
-                  className="w-full md:w-[40%] p-3 border border-gray-300 rounded-lg"
+                  className="w-full md:w-[50%] p-3 border border-gray-300 rounded-lg"
                 />
                 <input
                   type="text"
@@ -136,7 +138,7 @@ export default class Contact extends Component {
                   value={phoneNumber}
                   onChange={this.handleChange}
                   placeholder="Phone Number"
-                  className="w-full md:w-[40%] p-3 border border-gray-300 rounded-lg"
+                  className="w-full md:w-[50%] p-3 border border-gray-300 rounded-lg"
                 />
               </div>
             </div>
@@ -150,6 +152,8 @@ export default class Contact extends Component {
             </div>
           </div>
         </div>
+      </div>
+
       </>
     );
   }
