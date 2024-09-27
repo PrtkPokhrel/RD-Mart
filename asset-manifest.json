@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/RD-Mart/static/css/main.050fee8d.css",
-    "main.js": "/RD-Mart/static/js/main.7f0c3b39.js",
+    "main.css": "/RD-Mart/static/css/main.930f7235.css",
+    "main.js": "/RD-Mart/static/js/main.bdf60404.js",
     "static/js/453.64512fd7.chunk.js": "/RD-Mart/static/js/453.64512fd7.chunk.js",
     "static/media/background.png": "/RD-Mart/static/media/background.b1bfb7c2256e2d6caac7.png",
-    "static/media/logo.png": "/RD-Mart/static/media/logo.6c27e571590d5c1a7fa5.png",
     "static/media/beverage.png": "/RD-Mart/static/media/beverage.724a59d8b8a109ce6979.png",
     "static/media/groceryBig.png": "/RD-Mart/static/media/groceryBig.d7622474c3987a1f604e.png",
     "static/media/cosmetics.png": "/RD-Mart/static/media/cosmetics.7d882b671fc5ed145831.png",
     "static/media/cleaning.png": "/RD-Mart/static/media/cleaning.a0a2768d1e4d2c2abfcf.png",
+    "static/media/logo.png": "/RD-Mart/static/media/logo.6c05efc0fcb8f4a88974.png",
     "static/media/insta.svg": "/RD-Mart/static/media/insta.d63273dbf6a6c4f6d40459d8ca75e530.svg",
     "index.html": "/RD-Mart/index.html",
     "static/media/twitter.svg": "/RD-Mart/static/media/twitter.af8252bd8f53390fe1f17e19b602a91e.svg",
@@ -16,12 +16,12 @@
     "static/media/half circle big.svg": "/RD-Mart/static/media/half circle big.076d194d914984554ced30b2e14dd54d.svg",
     "static/media/half circle small.svg": "/RD-Mart/static/media/half circle small.9a44b0ddd187fbb3759cdf85262bf6fc.svg",
     "static/media/fb.svg": "/RD-Mart/static/media/fb.1460cc49cca1303ae053fcd0afdb0464.svg",
-    "main.050fee8d.css.map": "/RD-Mart/static/css/main.050fee8d.css.map",
-    "main.7f0c3b39.js.map": "/RD-Mart/static/js/main.7f0c3b39.js.map",
+    "main.930f7235.css.map": "/RD-Mart/static/css/main.930f7235.css.map",
+    "main.bdf60404.js.map": "/RD-Mart/static/js/main.bdf60404.js.map",
     "453.64512fd7.chunk.js.map": "/RD-Mart/static/js/453.64512fd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.050fee8d.css",
-    "static/js/main.7f0c3b39.js"
+    "static/css/main.930f7235.css",
+    "static/js/main.bdf60404.js"
   ]
 }
