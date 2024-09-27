@@ -9,6 +9,7 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],  // Add the Inter font
         poppins: ['Poppins', 'sans-serif'], // Add the Poppins font
         roboto: ['Roboto', 'sans-serif'], // Example of adding another font
+        Montserrat: ["Montserrat", 'sans-serif'],
         // You can add more fonts as needed
       },
     },

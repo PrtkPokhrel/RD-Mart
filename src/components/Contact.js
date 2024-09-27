@@ -59,7 +59,7 @@ export default class Contact extends Component {
 
     return (
       <>
-      <div className='bg-[#F5EDED]'>
+      <div className='bg-[#F5EDED] container '>
 
         <div className="texts  ">
           <h3 className="text-center text-3xl md:text-4xl text-[#6482AD] font-semibold pt-6">Contact us</h3>

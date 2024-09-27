@@ -13,15 +13,15 @@ export default class Contact extends Component {
   render() {
     return (
       <>
-      <div className='bg-[#F5EDED]'>
+      <div className='bg-[#F5EDED] flex justify-evenly '>
 
-        <div className="container containerFooter pt-11  ">
+        <div className=" containerFooter pt-11 border-t-2 border-b-2 border-black  w-[95%]   ">
                         
 
-          <div className="contactContainerFooter border-t-2 border-b-2 border-black  pt-11    flex justify-around ">
+          <div className="contactContainerFooter container flex justify-between   ">
             <div className="contactLeft w-[30rem]  ">
-              <div className="contactLeftContainer">
-                <h2 className='text-[#6482AD] text-[2.25rem] font-bold mt-3 font-poppins  ' ><img src={logo} className='w-[10rem] mix-blend-multiply ml-[-1rem]' alt="" /></h2>
+              <div className="contactLeftContainer flex flex-col items-center md:items-start">
+                <h2 className='text-[#6482AD] text-[2.25rem] font-bold mt-3 font-poppins  ' ><img src={logo} className=' w-[4rem]  ' alt="" /></h2>
                 <p className=' footertext text-[1.5rem] font-[400] mt-4 font-poppins ' >Your Everyday Essentials,<br/> Always Within Reach.</p>
                 <div className="socialMediaContainer flex gap-4 mt-9 ">
                   {/* Social Media Icon Goes Here */}
@@ -32,7 +32,7 @@ export default class Contact extends Component {
                 </div>
               </div>
             </div>
-            <div className="contactMid">
+            <div className="contactMid hidden md:block  ">
               <ul >
 
                 <h1 className='font-bold text-[1.25rem] text-[#6482AD] mt-4 font-poppins' >Most Popular Categories</h1>
@@ -46,15 +46,21 @@ export default class Contact extends Component {
                 <li className='list-disc font-bold text-[#6482AD] mt-2 ml-5 text-[1.25rem] font-poppins'>Vegetables and Fruits</li>
               </ul>
             </div>
+
             <div className="contactRightImages flex ">
-              <img className=' half1 mt-[100%]    ' src={halfCircle} alt="" />
-              <img className=' half2 absolute right-0 w-[40vh] mt-[-12rem]' src={halfCircleBig} alt="" />
+              <img className=' half1 hidden  md:block   md:mt-[80%]   ' src={halfCircle} alt="" />
+              <img className=' half2  hidden  md:block md:absolute   md:right-[0]  md:mt-[-15%]  '  src={halfCircleBig} alt="" />
             </div>
+
+            
           </div>
         </div>
 
         
       </div>
+
+
+      <div className="copyright flex justify-center text-center items-center pb-4 mt-3 text-[1rem] md:text-[1.25rem] font-[400] font-Montserrat " >Copyright© 2024 RD.Mart. All Rights Reserved.</div>
 
       </>
     )

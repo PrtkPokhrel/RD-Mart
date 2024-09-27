@@ -1,7 +1,8 @@
 // Navigation.js
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
-import './Css/navigation.css'; // Import the CSS file for styling
+import './Css/navigation.css'; 
+ 
 
 
 
@@ -19,13 +20,13 @@ export default class Navigation extends Component {
       <>
         {/* Location */}
         <div className="top bg-[#6482AD] py-3 flex justify-center">
-          Koteshwor, Kathmandu
+         R.D Mart Koteshwor, Kathmandu
         </div>
 
         {/* Navigation */}
         <nav className="pt-2 pb-11 border border-black bg-[#F5EDED]">
           <div className="containerNav flex justify-between items-center">
-            <img className="w-36 mix-blend-multiply " src={this.props.logo} alt="RD Mart" />
+            <img className="w-[5rem] md:ml-10 " src={this.props.logo} alt="RD Mart" />
 
             {/* Hamburger Icon */}
             <div

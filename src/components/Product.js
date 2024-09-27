@@ -13,7 +13,7 @@ export default class Product extends Component {
         </div>
 
         {/* Actual Product section starts from here */}
-        <div className="container bg-[#E2DAD6] p-6 md:p-11 rounded-2xl">
+        <div className="container bg-[#E2DAD6] p-6 md:pl-32 md:pr-32 md:pt-[6rem] md:pb-[6rem] rounded-2xl">
           {/*Top part of the container */}
           <div className="top flex flex-col md:flex-row justify-between space-y-6 md:space-y-0">
             <div className="left bg-[#F5EDED] border-black flex flex-col w-full md:w-[40%] rounded-2xl">
