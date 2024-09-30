@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RD-Mart/static/css/main.930f7235.css",
+    "main.css": "/RD-Mart/static/css/main.1df888e0.css",
     "main.js": "/RD-Mart/static/js/main.bdf60404.js",
     "static/js/453.64512fd7.chunk.js": "/RD-Mart/static/js/453.64512fd7.chunk.js",
     "static/media/background.png": "/RD-Mart/static/media/background.b1bfb7c2256e2d6caac7.png",
@@ -16,12 +16,12 @@
     "static/media/half circle big.svg": "/RD-Mart/static/media/half circle big.076d194d914984554ced30b2e14dd54d.svg",
     "static/media/half circle small.svg": "/RD-Mart/static/media/half circle small.9a44b0ddd187fbb3759cdf85262bf6fc.svg",
     "static/media/fb.svg": "/RD-Mart/static/media/fb.1460cc49cca1303ae053fcd0afdb0464.svg",
-    "main.930f7235.css.map": "/RD-Mart/static/css/main.930f7235.css.map",
+    "main.1df888e0.css.map": "/RD-Mart/static/css/main.1df888e0.css.map",
     "main.bdf60404.js.map": "/RD-Mart/static/js/main.bdf60404.js.map",
     "453.64512fd7.chunk.js.map": "/RD-Mart/static/js/453.64512fd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.930f7235.css",
+    "static/css/main.1df888e0.css",
     "static/js/main.bdf60404.js"
   ]
 }
