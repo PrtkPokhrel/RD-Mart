@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/RD-Mart/static/css/main.1df888e0.css",
-    "main.js": "/RD-Mart/static/js/main.bdf60404.js",
-    "static/js/453.64512fd7.chunk.js": "/RD-Mart/static/js/453.64512fd7.chunk.js",
-    "static/media/background.png": "/RD-Mart/static/media/background.b1bfb7c2256e2d6caac7.png",
-    "static/media/beverage.png": "/RD-Mart/static/media/beverage.724a59d8b8a109ce6979.png",
-    "static/media/groceryBig.png": "/RD-Mart/static/media/groceryBig.d7622474c3987a1f604e.png",
-    "static/media/cosmetics.png": "/RD-Mart/static/media/cosmetics.7d882b671fc5ed145831.png",
-    "static/media/cleaning.png": "/RD-Mart/static/media/cleaning.a0a2768d1e4d2c2abfcf.png",
-    "static/media/logo.png": "/RD-Mart/static/media/logo.6c05efc0fcb8f4a88974.png",
-    "static/media/insta.svg": "/RD-Mart/static/media/insta.d63273dbf6a6c4f6d40459d8ca75e530.svg",
-    "index.html": "/RD-Mart/index.html",
-    "static/media/twitter.svg": "/RD-Mart/static/media/twitter.af8252bd8f53390fe1f17e19b602a91e.svg",
-    "static/media/linkden.svg": "/RD-Mart/static/media/linkden.c52eaa2d9c28b94cbb9abd4105abebe8.svg",
-    "static/media/half circle big.svg": "/RD-Mart/static/media/half circle big.076d194d914984554ced30b2e14dd54d.svg",
-    "static/media/half circle small.svg": "/RD-Mart/static/media/half circle small.9a44b0ddd187fbb3759cdf85262bf6fc.svg",
-    "static/media/fb.svg": "/RD-Mart/static/media/fb.1460cc49cca1303ae053fcd0afdb0464.svg",
-    "main.1df888e0.css.map": "/RD-Mart/static/css/main.1df888e0.css.map",
-    "main.bdf60404.js.map": "/RD-Mart/static/js/main.bdf60404.js.map",
-    "453.64512fd7.chunk.js.map": "/RD-Mart/static/js/453.64512fd7.chunk.js.map"
+    "main.css": "./static/css/main.1df888e0.css",
+    "main.js": "./static/js/main.2b44172c.js",
+    "static/js/453.64512fd7.chunk.js": "./static/js/453.64512fd7.chunk.js",
+    "static/media/background.png": "./static/media/background.b1bfb7c2256e2d6caac7.png",
+    "static/media/beverage.png": "./static/media/beverage.724a59d8b8a109ce6979.png",
+    "static/media/groceryBig.png": "./static/media/groceryBig.d7622474c3987a1f604e.png",
+    "static/media/cosmetics.png": "./static/media/cosmetics.7d882b671fc5ed145831.png",
+    "static/media/cleaning.png": "./static/media/cleaning.a0a2768d1e4d2c2abfcf.png",
+    "static/media/logo.png": "./static/media/logo.6c05efc0fcb8f4a88974.png",
+    "static/media/insta.svg": "./static/media/insta.d63273dbf6a6c4f6d40459d8ca75e530.svg",
+    "index.html": "./index.html",
+    "static/media/twitter.svg": "./static/media/twitter.af8252bd8f53390fe1f17e19b602a91e.svg",
+    "static/media/linkden.svg": "./static/media/linkden.c52eaa2d9c28b94cbb9abd4105abebe8.svg",
+    "static/media/half circle big.svg": "./static/media/half circle big.076d194d914984554ced30b2e14dd54d.svg",
+    "static/media/half circle small.svg": "./static/media/half circle small.9a44b0ddd187fbb3759cdf85262bf6fc.svg",
+    "static/media/fb.svg": "./static/media/fb.1460cc49cca1303ae053fcd0afdb0464.svg",
+    "main.1df888e0.css.map": "./static/css/main.1df888e0.css.map",
+    "main.2b44172c.js.map": "./static/js/main.2b44172c.js.map",
+    "453.64512fd7.chunk.js.map": "./static/js/453.64512fd7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1df888e0.css",
-    "static/js/main.bdf60404.js"
+    "static/js/main.2b44172c.js"
   ]
 }
