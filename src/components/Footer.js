@@ -23,7 +23,7 @@ export default class Contact extends Component {
               <div className="contactLeftContainer flex flex-col items-center md:items-start">
                 <h2 className='text-[#6482AD] text-[2.25rem] font-bold mt-3 font-poppins  ' ><img src={logo} className=' w-[4rem]  ' alt="" /></h2>
                 <p className=' footertext text-[1.5rem] font-[400] mt-4 font-poppins ' >Your Everyday Essentials,<br/> Always Within Reach.</p>
-                <div className="socialMediaContainer flex gap-4 mt-9 ">
+                <div className="socialMediaContainer flex gap-4 mt-9 pb-4 ">
                   {/* Social Media Icon Goes Here */}
                   <img className='fb' src={fb} alt="" />
                   <img className='insta' src={insta} alt="" />
@@ -60,7 +60,7 @@ export default class Contact extends Component {
       </div>
 
 
-      <div className="copyright flex justify-center text-center items-center pb-4 mt-3 text-[1rem] md:text-[1.25rem] font-[400] font-Montserrat " >Copyright© 2024 RD.Mart. All Rights Reserved.</div>
+      <div className="copyright flex justify-center text-center items-center pb-4 mt-3 text-[1rem] md:text-[1.25rem] font-[400] font-Montserrat  " >Copyright© 2024 RD.Mart. All Rights Reserved.</div>
 
       </>
     )

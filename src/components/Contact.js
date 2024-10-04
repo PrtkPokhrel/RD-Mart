@@ -61,9 +61,9 @@ export default class Contact extends Component {
       <>
       <div className='bg-[#F5EDED] container '>
 
-        <div className="texts  ">
+        <div className="texts flex flex-col items-center justify-center ">
           <h3 className="text-center text-3xl md:text-4xl text-[#6482AD] font-semibold pt-6">Contact us</h3>
-          <p className="para text-[#6482AD] text-center my-3 text-lg md:text-xl">
+          <p className="para text-[#6482AD]    my-3 text-lg md:text-xl">
             Any question or remarks? Just write us a message!
           </p>
         </div>
